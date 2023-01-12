@@ -1,0 +1,34 @@
+AWS NOTES
+VPC-VIRTUAL PRIVATE CLOUD
+IP ADDRESSES-INTRENET PROTOCOL:IT IS AN UNIQ ADDRESSES THAT IDENTIFIES A DEVICE ON THE INTERNET OR A LOCAL NETWORK.
+5 KINDS OF IP RANGES
+PRIVATE IP-USED WITH ALN NETWORK,UNIQ ONLY IN LAN;
+PUBLIC IP-USED ON PUBLIC NETWORK,UNIQ ON GLOBALY;
+IANA :INTERENET ASSIGNED NUMBER AUTORITY;
+CLASS A RANGE:HAS A SMALL AMOUNT OF NETWORK.FIRST BIT(FIRST OCATATE),EVRY IP ADD IS  OF 8 BITS,WHOLE IP IS 32 BITS,OR 4 OCTATES,
+1ST OCTATE IS FOR NETWORK;
+LAST 3 OCTATE IS KNOWN FOR HOSTS;
+CLASS B:FIRST TWO OCATE IS FOR NETWORK,LAST 2 OCTAATE FOR HOSTS,WHICH HAS MORE NETWORK IP,WHICH IS MORE USED BY ISPs(INTERENT SERVICE PROVIDERS);
+CLASS C: FIRST 3 OCTATES IS FOR NETWORK,LAST 1 FOR HOST.
+WHENEVER IP ADDRESSES IS:0-255 RANGE;
+CIDR:classless inter domain routing;
+CIDR NOTATION:IN which it contains 2 types of number 1)base ip,2)subnet mask
+/ are used
+24-32 last ocatet will change;
+198.980.0.0;
+32->2^0->1 we will ahve one ip add ->198.980.0.0;
+21->
+IANA has established certain blocks IPv4 
+
+VPC IN AWS -IPv4:
+you can have multiple VPCs in an AWS region(max 5 per region -soft limit)
+min size -/28(16 ip add);
+max size -/16(65,536 ip addresses);
+subnet:network inside a network is known as subnet;
+this break dwown of network is based on IP 
+AWS reserves 5 IP  in each subnet;
+BASTION HOSTS:Jump serevrs;
+3 tier architechture of a web application;
+NAT gateway:
+
+
